@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150sp"
+        android:layout_height="140sp"
+        android:layout_marginHorizontal="130dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Name"
+        android:layout_marginHorizontal="15dp"
+        tools:ignore="InvalidId"
+
+        android:layout_below="@id/image"/>
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="5dp"
+        android:layout_below="@id/text"
+        android:text="Select Attachment"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/bg"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/select"
+        android:layout_marginHorizontal="110dp"
+        android:layout_marginTop="15dp"
+        android:text="Upload"/>
+
+   <!-- <Button
+        android:id="@+id/upload1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/upload"
+        android:layout_marginHorizontal="110dp"
+        android:layout_marginTop="15dp"
+        android:text="Upload"/>
+-->
+
+
+
+
+</RelativeLayout>
